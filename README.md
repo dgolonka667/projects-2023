@@ -7,3 +7,5 @@ Includes:
 - Reversi Game Python Implementation
 
 - Exoplanet Radii Correlation Analysis
+
+- (In progress) Solar System Model using VTK
