@@ -1,0 +1,31 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     play
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _make_pos, symObjAddr: 0x0, symBinAddr: 0x100001968, symSize: 0x28 }
+  - { offsetInCU: 0xE2, offset: 0xE2, size: 0x8, addend: 0x0, symName: _make_pos, symObjAddr: 0x0, symBinAddr: 0x100001968, symSize: 0x28 }
+  - { offsetInCU: 0x126, offset: 0x126, size: 0x8, addend: 0x0, symName: _posqueue_new, symObjAddr: 0x28, symBinAddr: 0x100001990, symSize: 0x58 }
+  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: _pos_enqueue, symObjAddr: 0x80, symBinAddr: 0x1000019E8, symSize: 0xC8 }
+  - { offsetInCU: 0x18E, offset: 0x18E, size: 0x8, addend: 0x0, symName: _pos_dequeue, symObjAddr: 0x148, symBinAddr: 0x100001AB0, symSize: 0xA8 }
+  - { offsetInCU: 0x1D2, offset: 0x1D2, size: 0x8, addend: 0x0, symName: _posqueue_free, symObjAddr: 0x1F0, symBinAddr: 0x100001B58, symSize: 0x6C }
+  - { offsetInCU: 0x26, offset: 0x22A, size: 0x8, addend: 0x0, symName: _board_new, symObjAddr: 0x0, symBinAddr: 0x100001BC4, symSize: 0x264 }
+  - { offsetInCU: 0x90, offset: 0x294, size: 0x8, addend: 0x0, symName: _board_new, symObjAddr: 0x0, symBinAddr: 0x100001BC4, symSize: 0x264 }
+  - { offsetInCU: 0x144, offset: 0x348, size: 0x8, addend: 0x0, symName: _board_free, symObjAddr: 0x264, symBinAddr: 0x100001E28, symSize: 0xA8 }
+  - { offsetInCU: 0x184, offset: 0x388, size: 0x8, addend: 0x0, symName: _large_char, symObjAddr: 0x30C, symBinAddr: 0x100001ED0, symSize: 0x78 }
+  - { offsetInCU: 0x1BA, offset: 0x3BE, size: 0x8, addend: 0x0, symName: _board_get, symObjAddr: 0x384, symBinAddr: 0x100001F48, symSize: 0x114 }
+  - { offsetInCU: 0x21A, offset: 0x41E, size: 0x8, addend: 0x0, symName: _board_show, symObjAddr: 0x498, symBinAddr: 0x10000205C, symSize: 0x28C }
+  - { offsetInCU: 0x2BC, offset: 0x4C0, size: 0x8, addend: 0x0, symName: _board_set, symObjAddr: 0x724, symBinAddr: 0x1000022E8, symSize: 0x140 }
+  - { offsetInCU: 0x26, offset: 0x5FB, size: 0x8, addend: 0x0, symName: _new_game, symObjAddr: 0x0, symBinAddr: 0x100002428, symSize: 0x9C }
+  - { offsetInCU: 0x2BF, offset: 0x894, size: 0x8, addend: 0x0, symName: _new_game, symObjAddr: 0x0, symBinAddr: 0x100002428, symSize: 0x9C }
+  - { offsetInCU: 0x349, offset: 0x91E, size: 0x8, addend: 0x0, symName: _game_free, symObjAddr: 0x9C, symBinAddr: 0x1000024C4, symSize: 0x48 }
+  - { offsetInCU: 0x36D, offset: 0x942, size: 0x8, addend: 0x0, symName: _place_piece, symObjAddr: 0xE4, symBinAddr: 0x10000250C, symSize: 0x134 }
+  - { offsetInCU: 0x3B1, offset: 0x986, size: 0x8, addend: 0x0, symName: _rotate_positions, symObjAddr: 0x218, symBinAddr: 0x100002640, symSize: 0xE0 }
+  - { offsetInCU: 0x457, offset: 0xA2C, size: 0x8, addend: 0x0, symName: _rotate_row, symObjAddr: 0x2F8, symBinAddr: 0x100002720, symSize: 0x134 }
+  - { offsetInCU: 0x519, offset: 0xAEE, size: 0x8, addend: 0x0, symName: _threads_rotate, symObjAddr: 0x42C, symBinAddr: 0x100002854, symSize: 0x2BC }
+  - { offsetInCU: 0x5DD, offset: 0xBB2, size: 0x8, addend: 0x0, symName: _rotate, symObjAddr: 0x6E8, symBinAddr: 0x100002B10, symSize: 0x1DC }
+  - { offsetInCU: 0x659, offset: 0xC2E, size: 0x8, addend: 0x0, symName: _uplift, symObjAddr: 0x8C4, symBinAddr: 0x100002CEC, symSize: 0x3CC }
+  - { offsetInCU: 0x6C9, offset: 0xC9E, size: 0x8, addend: 0x0, symName: _game_outcome, symObjAddr: 0xC90, symBinAddr: 0x1000030B8, symSize: 0x5B8 }
+  - { offsetInCU: 0x26, offset: 0xF68, size: 0x8, addend: 0x0, symName: _do_turn, symObjAddr: 0x0, symBinAddr: 0x100003670, symSize: 0x398 }
+  - { offsetInCU: 0xDD, offset: 0x101F, size: 0x8, addend: 0x0, symName: _do_turn, symObjAddr: 0x0, symBinAddr: 0x100003670, symSize: 0x398 }
+  - { offsetInCU: 0x19F, offset: 0x10E1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x408, symBinAddr: 0x100003A78, symSize: 0x30C }
+...
