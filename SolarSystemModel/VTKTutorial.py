@@ -3,7 +3,7 @@ import time
 import vtkmodules.all as vtk
 
 import vtkmodules.vtkInteractionStyle
-# noinspection PyUnresolvedReferences
+
 import vtkmodules.vtkRenderingOpenGL2
 from vtkmodules.vtkCommonColor import vtkNamedColors
 from vtkmodules.vtkFiltersSources import vtkConeSource
