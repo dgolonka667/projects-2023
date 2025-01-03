@@ -1,8 +1,10 @@
-# projects-2023
+# projects-2025
 Daniel's project list :)
 
-Updated Dec 2023
+Updated Jan 2025
 Includes:
+
+- Schrodinger Equation Solver and Simulator
 
 - Reversi Game Python Implementation
 
